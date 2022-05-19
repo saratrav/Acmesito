@@ -37,7 +37,7 @@
   color: white;
   max-width: 1200px;
   margin: auto;
-  xborder-radius: 15px;
+  border-radius: 15px;
   border: 50px;
 }
 div[red] {
