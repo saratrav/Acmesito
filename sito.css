@@ -3,37 +3,49 @@
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100%;
+  margin: 0px;
 }
+
 .striscianera {
-  position:fixed-top;
-  margin:-8px;
-  height:70px;
-  background-color:black;
-  width:100%;
-  border-bottom: 1px solid red;
+  position: fixed;
+  height: 70px;
+  background-color: black;
+  width: 100%;
+  border-bottom: 3px solid red;
   opacity: 0.8;
-  margin
-  }
+}
+
 .bandiere {
   width: 60px;
   height: 40px;
   margin-left: 10px;
   margin-top: 15px;
+  border-radius: 10px;
 }
-#italia {
-  margin-left:50px;
-}
-#acmetop {
-  margin-left:300px;
-  margin-top:-40px;
-  color:white;
-}
-#openday {
-  margin-top:700px;
-  text-align:center;
-  color: white;
-  background-color:red;
-  alignment-adjust:center;
-  
+#bandieraitalia {
+  margin-left: 50px;
 }
 
+#acmetop {
+  margin-left: 300px;
+  margin-top: -43px;
+  color: white;
+}
+
+#openday {
+  text-align: center;
+  color: white;
+  max-width: 1200px;
+  margin: auto;
+  xborder-radius: 15px;
+  border: 50px;
+}
+div[red] {
+  background-color: red;
+}
+div[green] {
+  background-color: green;
+}
+p[italic] {
+  font-style: italic;
+}
