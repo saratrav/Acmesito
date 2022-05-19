@@ -53,17 +53,34 @@ p[italic] {
 
 #offertaformativa {
   background-color: hsl(0, 0%, 6%);
-  max-width: 1500px;
-  height: 300px;
-  margin: auto;
+  height: auto;
   border: 3px solid white;
   color: white;
   text-align: center;
-  alignment-adjust: center;
   padding: 30px;
 }
 
-
 #immagine {
-  max-width:50px;
+  max-width: 50px;
+  margin: 6px;
+}
+
+#welcome {
+  background-color: black;
+  padding: 20px;
+  color: white;
+  height: auto;
+}
+
+h2[welcome] {
+  margin: 70px 0px 70px 0px;
+  border-left: 10px solid hsl(0, 100%, 70%);
+  padding-left: 20px;
+}
+
+#button {
+  width: auto;
+  position: fixed;
+  top: 500px;
+  z-index: -1;
 }
