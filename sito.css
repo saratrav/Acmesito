@@ -1,0 +1,39 @@
+.background {
+  background-image: url("https://images.unsplash.com/photo-1585840887185-dc28a1b86ea0?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=60&raw_url=true&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fGRyYXdpbmd8ZW58MHx8MHx8&auto=format&fit=crop&w=400");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100%;
+}
+.striscianera {
+  position:fixed-top;
+  margin:-8px;
+  height:70px;
+  background-color:black;
+  width:100%;
+  border-bottom: 1px solid red;
+  opacity: 0.8;
+  margin
+  }
+.bandiere {
+  width: 60px;
+  height: 40px;
+  margin-left: 10px;
+  margin-top: 15px;
+}
+#italia {
+  margin-left:50px;
+}
+#acmetop {
+  margin-left:300px;
+  margin-top:-40px;
+  color:white;
+}
+#openday {
+  margin-top:700px;
+  text-align:center;
+  color: white;
+  background-color:red;
+  alignment-adjust:center;
+  
+}
+
