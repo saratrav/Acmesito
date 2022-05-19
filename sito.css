@@ -80,7 +80,5 @@ h2[welcome] {
 
 #button {
   width: auto;
-  position: fixed;
-  top: 500px;
-  z-index: -1;
+  margin: 50px;
 }
