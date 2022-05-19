@@ -1,0 +1,14 @@
+.row
+{padding-left: 90px; padding-top: 50px} 
+
+.prezzo
+{font-style: bold; font-size: 16px}
+
+#Headline
+{font-style: bold; font-size: 26px}
+
+p 
+{font-style: italic; color: grey}
+
+.image
+{width: 150px; float: left; margin-right: 20px}
