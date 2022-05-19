@@ -1,5 +1,5 @@
 .background {
-  background-image: url("https://images.unsplash.com/photo-1585840887185-dc28a1b86ea0?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=60&raw_url=true&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fGRyYXdpbmd8ZW58MHx8MHx8&auto=format&fit=crop&w=400");
+  background-image: url("https://cdn.pixabay.com/photo/2015/08/28/11/37/painting-911804_960_720.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100%;
@@ -38,7 +38,8 @@
   max-width: 1200px;
   margin: auto;
   border-radius: 15px;
-  border: 50px;
+  padding: 1px;
+  margin-bottom: 20px;
 }
 div[red] {
   background-color: red;
@@ -48,4 +49,25 @@ div[green] {
 }
 p[italic] {
   font-style: italic;
+}
+
+#offertaformativa {
+  background-color: hsl(0, 0%, 6%);
+  max-width: 1500px;
+  height: 300px;
+  margin: auto;
+  border: 3px solid white;
+  color: white;
+  text-align: center;
+  alignment-adjust: center;
+  padding: 30px;
+}
+
+<!-- #align {
+  float: left;
+  margin: auto
+} -->
+
+#immagine {
+  max-width:50px;
 }
