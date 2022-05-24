@@ -94,6 +94,8 @@
               </div>
             </div>
           </div>
+
+          <div onclick="scrollToTop()" class="top">TOP</div>
     
     </main>
 
@@ -106,5 +108,20 @@
            <a href="#">accademia@acmenovara.it</a></p>
         </div>  
     </footer>
+    
+    <div onclick="GoUp()" class="popup">POP UP</div>
+    
+    <script>
+     
+        function scrollToTop() {
+           window.scrollTo(0, 0);
+        }
+
+        function GoUp() {
+           document.getElementsByClassName("popup").style = "bottom: 0";
+        }
+
+      </script>
+
 </body>
 </html>
