@@ -1,85 +1,142 @@
-.background {
-  background-image: url("https://cdn.pixabay.com/photo/2015/08/28/11/37/painting-911804_960_720.jpg");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: 100%;
-  margin: 0px;
+body {
+    background-image: url(images/Background.jpg);
+    margin: 0px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
 }
 
-.striscianera {
-  position: fixed;
-  height: 70px;
-  background-color: black;
-  width: 100%;
-  border-bottom: 3px solid red;
-  opacity: 0.8;
+.Stricianera {
+    height: 80px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-bottom: 2px solid red;
+    position: fixed;
+}
+
+.centraturaverticalestriscia {
+    padding: 20px 0;
 }
 
 .bandiere {
-  width: 60px;
-  height: 40px;
-  margin-left: 10px;
-  margin-top: 15px;
-  border-radius: 10px;
-}
-#bandieraitalia {
-  margin-left: 50px;
+    float: left;
+    width: 70px;
+    height: 40px;
+    margin-left: 10px;
+    margin-right: 20px;
+    border-radius: 3px;
+
 }
 
-#acmetop {
-  margin-left: 300px;
-  margin-top: -43px;
-  color: white;
-  max-width: 200px;
+#bandieraitaliana {
+    margin-left: 90px;
 }
 
-#openday {
-  text-align: center;
-  color: white;
-  max-width: 1200px;
-  margin: auto;
-  border-radius: 15px;
-  padding: 1px;
-  margin-bottom: 20px;
+.acmetop {
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+
 }
-div[red] {
-  background-color: red;
+
+.logoacme {
+    max-width: fit-content;
+    margin: 20px auto 0px auto;
+    background-color: rgba(0, 0, 0, 0.562);
+    padding: 90px 15px;
+    border-radius: 150px;
+    height: 250px;
+    text-align: center;
+    color: white;
 }
-div[green] {
-  background-color: green;
+
+.space {
+    height: 120px;
+    max-width: fit-content;
+    margin: 0 auto;
+
 }
-p[italic] {
-  font-style: italic;
+
+button {
+    margin-top: 40px !important;
+    background-color: rgb(9, 151, 151);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: white;
+    border-radius: 5px;
+
 }
+
+.openday {
+    margin: 0 auto;
+    padding: 1px;
+    max-width: 700px;
+    border-radius: 10px;
+    color: white;
+    line-height: 3px;
+    text-align: center;
+    font-size: larger;
+    margin-top: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+#red_bg {
+    background-color: rgb(250, 106, 106);
+}
+
+#orange_bg {
+    background-color: orange;
+}
+
 
 #offertaformativa {
-  background-color: hsl(0, 0%, 6%);
-  height: auto;
-  border: 3px solid white;
-  color: white;
-  text-align: center;
-  padding: 30px;
-}
+    background-color: hsl(0, 0%, 6%);
+    height: auto;
+    border: 3px solid white;
+    color: white;
+    text-align: center;
+    padding: 30px;
+ }
 
-#immagine {
-  max-width: 50px;
-  margin: 6px;
+ 
+.material-symbols-outlined {
+    font-size: 70px !important;
+}
+  
+a {
+    text-decoration: none;
 }
 
 #welcome {
-  background-color: black;
-  padding: 20px;
-  color: white;
-  height: auto;
+    background-color: black;
+    padding: 20px;
+    color: white;
+    height: auto;
+    border: 3px solid white;
+  }
+
+  h2[welcome] {
+    margin: 70px 0px 70px 0px;
+    border-left: 10px solid hsl(0, 100%, 70%);
+    padding-left: 20px;
+  }
+
+  #video {
+      padding: 2px;
+  }
+
+  footer {
+    background-color: black;
+    color: white;
+    width: 100%;
+    margin-top: 30px;
+
 }
 
-h2[welcome] {
-  margin: 70px 0px 70px 0px;
-  border-left: 10px solid hsl(0, 100%, 70%);
-  padding-left: 20px;
-}
-
-#button {
-  width: auto;
-  margin: 50px;
+.footercontent {
+    max-width: 350px;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 12px; 
 }
