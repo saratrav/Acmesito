@@ -1,79 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Sito_Acme</title>
-
-  <link href="sito.css" rel="stylesheet">
-
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sito ACME</title>
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 
+  <!-- google fonts icons -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
 
-<body class="background">
-
-  <div class="striscianera"> <img id="bandieraitalia" class="bandiere" alt="bandiera" src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.nationalflags.shop%2FWebRoot%2Fvilkasfi01%2FShops%2F2014080403%2F53E6%2F2F59%2FAA2F%2FDADE%2F1053%2F0A28%2F100B%2F0424%2F1280px-Flag_of_Italy.svg.png&f=1&nofb=1"></img>
-    <img class="bandiere" alt="bandiera" src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fcodicicolori.com%2Fimages%2FBANDIERE%2Fbandiera-del-regno-unito.jpg&f=1&nofb=1"></img>
-    <img class="bandiere" alt="bandiera" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.CCgGtfNllMELEkZBdTzZ7AHaE8%26pid%3DApi&f=1"></img>
-
-    <div id="acmetop"> <a href="#top">
-        <p>ACME
-          <br>
-          ACCADEMIA DI BELLE ARTI
-        </p>
-      </a></div>
-  </div>
-
-  <div style="height:300px;"></div>
-  <div class=" row d-flex justify-content-center align-content-center "> <a href="" type="button" id="button" class="btn btn-info">Discover more</a> </div>
-
-  <div red id="openday">
-    <h1>OPEN DAY ONLINE</h1>
-    <p italic>Tutte le informazioni per conoscere l'Accademia di Belle Arti ACME</p>
-  </div>
-  <div green id="openday">
-    <h1>OPEN DAY INTERATTIVO</h1>
-    <p italic>Clicca qui per iscriverti alla presentazione online</p>
-  </div>
+<body>
   
-
-  <div id="offertaformativa" class="container mt-5">
-    <div class="row">
-      <div class="col-sm-4">
-        <img id="immagine" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.iconsdb.com%2Ficons%2Fdownload%2Fwhite%2Fabout-512.png&f=1&nofb=1" alt="immagine">
-        <h3>OFFERTA FORMATIVA</h3>
-        <p>Una formazione globale per i professionisti in campo artistico e nella comunicazione per immagini</p>
-      </div>
-      <div class="col-sm-4">
-        <img id="immagine" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.iconsdb.com%2Ficons%2Fdownload%2Fwhite%2Fabout-512.png&f=1&nofb=1" alt="immagine">
-        <h3>DURATA E TITOLI</h3>
-        <p>I corsi di studio prevedono un percorso formativo distinto in più cicli (info)</p>
-      </div>
-      <div class="col-sm-4">
-        <img id="immagine" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.iconsdb.com%2Ficons%2Fdownload%2Fwhite%2Fabout-512.png&f=1&nofb=1" alt="immagine">
-        <h3>BORSE DI STUDIO</h3>
-        <p>Gli studenti ACME beneficiano dei contributi previsti dalla normativa e gestiti dall'Ente regionale preposto (info)</p>
-      </div>
+    <div class="Stricianera">
+    
+        <div class="centraturaverticalestriscia">
+            <a href="#"><img id="bandieraitaliana" class="bandiere" src="images/italy-flag.png" alt="bandiera italiana"></a>
+            <a href=""><img class="bandiere" src="images/British-Flag.jpg" alt="bandiera britannica"></a>
+            <a href=""><img class="bandiere" src="images/China-Flag.jpg" alt="bandiera cinese"></a> 
+    
+            <div>
+                <a href="#top" class="acmetop"> <b>ACME</b> <br>ACCADEMIA DI BELLE ARTI</a>
+            </div>
+        </div>
     </div>
-  </div>
 
-  <div id="welcome" class="container mt-5">
-    <div class="row">
-      <div class="col-sm-6">
-        <h5>LA CREATIVITÀ È LA TUA PROFESSIONE</h5>
-        <h2 welcome>WELCOME TO ACME</h2>
-        <p>Accademia di Belle Arti ACME di Novara è un'istituzione di Alta Formazione Artistica che rilascia titoli accademici di I e II livello</p>
-      </div>
-      <div id="video" class="col-sm-6">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/-cQk6kK7JVs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      </div>
-    </div>
-  </div>
+    <main>
+        
+        <div class="space"></div>
+        
+        <div class="logoacme"><img src="images/ACME-logo.png" alt="logo Acme"><br>Academy of Fine Arts and Media</div>
+        <div class="space">
+             <button>DISCOVER MORE</button>
+        </div>
+         
+
+        <div id="red_bg" class="openday">
+            <h3>OPEN DAY ONLINE</h3>
+            <p>Tutte le informazioni per conoscere l'Accademia di Belle Arti ACME</p>
+        </div>
+    
+        <div id="orange_bg" class="openday">
+            <h3>OPEN DAY INTERATTIVO</h3>
+            <p>Clicca qui per iscriverti alla presentazione online</p>
+        </div>
+
+        <div id="offertaformativa" class="container mt-5">
+            <div class="row">
+              <div class="col-sm-4">
+                <span class="material-symbols-outlined">
+                    menu_book
+                    </span>
+                <h3>OFFERTA FORMATIVA</h3>
+                <p>Una formazione globale per i professionisti in campo artistico e nella comunicazione per immagini</p>
+              </div>
+              <div class="col-sm-4">
+                <span class="material-symbols-outlined">
+                    workspace_premium
+                    </span>
+                <h3>DURATA E TITOLI</h3>
+                <p>I corsi di studio prevedono un percorso formativo distinto in più cicli (info)</p>
+              </div>
+              <div class="col-sm-4">
+                <span class="material-symbols-outlined">
+                    public
+                    </span>
+                <h3>BORSE DI STUDIO</h3>
+                <p>Gli studenti ACME beneficiano dei contributi previsti dalla normativa e gestiti dall'Ente regionale preposto (info)</p>
+              </div>
+            </div>
+          </div>
+
+          <div id="welcome" class="container mt-5">
+            <div class="row">
+              <div class="col-sm-6">
+                <h5>LA CREATIVITÀ È LA TUA PROFESSIONE</h5>
+                <h2 welcome>WELCOME TO ACME</h2>
+                <p>Accademia di Belle Arti ACME di Novara è un'istituzione di Alta Formazione Artistica che rilascia titoli accademici di I e II livello</p>
+              </div>
+              <div id="video" class="col-sm-6">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/-cQk6kK7JVs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+    
+    </main>
+
+    <footer>
+        <div class="footercontent"> 
+            <p>© Sella srl - PI 01176320032 <br>  Privacy Policy (ita eng 隐私政策)  |  Cookie Policy (ita eng 政策) <br>
+            ACME Accademia di Belle Arti Europea dei Media <br>
+            Address / 地址  Novara (Italy), via C. Porta 25
+            Tel. /  电话 (+39) 0321.627101 / 628381 - Fax / 传真 (+39) 0321.35400 <br>
+           <a href="#">accademia@acmenovara.it</a></p>
+        </div>  
+    </footer>
 </body>
-
 </html>
