@@ -126,6 +126,32 @@ a {
       padding: 2px;
   }
 
+  .top {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.541);
+    position: fixed;
+    bottom: 10px;
+    right: 15px;
+    width: 55px;
+    border-radius: 90px;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    padding: 6px;
+}
+
+.popup {
+    background-color: red;
+    height: 200px;
+    width: 200px;
+    bottom: -175px;
+    left: 20px;
+    position: fixed;
+    text-align: center;
+    border-radius: 10px 10px 0 0;
+}
+
   footer {
     background-color: black;
     color: white;
@@ -138,5 +164,5 @@ a {
     max-width: 350px;
     text-align: center;
     margin: 0 auto;
-    font-size: 12px; 
+    font-size: 12px;
 }
