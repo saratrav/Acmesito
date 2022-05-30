@@ -5,11 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sito ACME</title>
-    <link rel="stylesheet" href="style.css">
+    <meta name="description" content="Sito dell'Accademia di Belle Arti Novara">
     
+    <meta name="author" content="Sara Travain">
+    <link rel="stylesheet" href="style.css">
+
     <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+
 
   <!-- google fonts icons -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
@@ -21,10 +25,10 @@
   
     <div class="Stricianera">
     
-        <div class="centraturaverticalestriscia">
-            <a href="#"><img id="bandieraitaliana" class="bandiere" src="images/italy-flag.png" alt="bandiera italiana"></a>
-            <a href=""><img class="bandiere" src="images/British-Flag.jpg" alt="bandiera britannica"></a>
-            <a href=""><img class="bandiere" src="images/China-Flag.jpg" alt="bandiera cinese"></a> 
+        <div>
+            <a href="#offertaformativa"><img class="bandiere" src="images/italy-flag.png" alt="bandiera italiana"></a>
+            <a href="#welcome"><img class="bandiere" src="images/British-Flag.jpg" alt="bandiera britannica"></a>
+            <a href="#review"><img class="bandiere" src="images/China-Flag.jpg" alt="bandiera cinese"></a> 
     
             <div>
                 <a href="#top" class="acmetop"> <b>ACME</b> <br>ACCADEMIA DI BELLE ARTI</a>
@@ -38,45 +42,45 @@
         
         <div class="logoacme"><img src="images/ACME-logo.png" alt="logo Acme"><br>Academy of Fine Arts and Media</div>
         <div class="space">
-             <button>DISCOVER MORE</button>
+             <a href="#offertaformativa"><button type="button" class="btn btn-primary">DISCOVER MORE</button></a>
         </div>
          
 
         <div id="red_bg" class="openday">
-            <h3>OPEN DAY ONLINE</h3>
-            <p>Tutte le informazioni per conoscere l'Accademia di Belle Arti ACME</p>
+            <h3 nomargin>OPEN DAY ONLINE</h3>
+            <p nomargin>Tutte le informazioni per conoscere l'Accademia di Belle Arti ACME</p>
         </div>
     
         <div id="orange_bg" class="openday">
-            <h3>OPEN DAY INTERATTIVO</h3>
-            <p>Clicca qui per iscriverti alla presentazione online</p>
+            <h3 nomargin>OPEN DAY INTERATTIVO</h3>
+            <p nomargin>Clicca qui per iscriverti alla presentazione online</p>
         </div>
 
         <div id="offertaformativa" class="container mt-5">
             <div class="row">
-                <div class="col-sm-4">
+                <div class="col-sm-12 col-md-4 col-lg-4">
                     <span class="material-symbols-outlined">
                         menu_book
                     </span>
                     <h3>OFFERTA FORMATIVA</h3>
-                    <p>Una formazione globale per i professionisti in campo artistico e nella comunicazione per immagini <br><a href="#">(info)</a>
+                    <p>Una formazione globale per i professionisti in campo artistico e nella comunicazione per immagini <br><a info href="#">(info)</a>
                     </p>
                 </div>
-                <div class="col-sm-4">
+                <div class="col-sm-12 col-md-4 col-lg-4">
                     <span class="material-symbols-outlined">
                         workspace_premium
                     </span>
                     <h3>DURATA E TITOLI</h3>
-                    <p>I corsi di studio prevedono un percorso formativo distinto in più cicli <br><a href="#">(info)</a>
+                    <p>I corsi di studio prevedono un percorso formativo distinto in più cicli <br><a info href="#">(info)</a>
                     </p>
                 </div>
-                <div class="col-sm-4">
+                <div class="col-sm-12 col-md-4 col-lg-4">
                     <span class="material-symbols-outlined">
                         public
                     </span>
                     <h3>BORSE DI STUDIO</h3>
                     <p>Gli studenti ACME beneficiano dei contributi previsti dalla normativa e gestiti dall'Ente regionale
-                        preposto <br><a href="#">(info)</a>
+                        preposto <br><a info href="#">(info)</a>
                     </p>
                 </div>
             </div>
@@ -84,16 +88,36 @@
 
           <div id="welcome" class="container mt-5">
             <div class="row">
-              <div class="col-sm-6">
+              <div class="col-sm-12 col-md-6 col-lg-6">
                 <h5>LA CREATIVITÀ È LA TUA PROFESSIONE</h5>
-                <h2 welcome>WELCOME TO ACME</h2>
+                <h2>WELCOME TO ACME</h2>
                 <p>Accademia di Belle Arti ACME di Novara è un'istituzione di Alta Formazione Artistica che rilascia titoli accademici di I e II livello</p>
               </div>
-              <div id="video" class="col-sm-6">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/-cQk6kK7JVs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <div id="video" class="col-sm-12 col-md-6 col-lg-6">
+                <iframe width="100%" height="315" src="https://www.youtube.com/embed/-cQk6kK7JVs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               </div>
             </div>
           </div>
+
+          <div id="review">
+            <p>"Non sprecare il tuo tempo. Crea, agisci, prendi posto ovunque tu sia e diventa qualcuno" Teddy Roosevelt</p> 
+        </div>
+
+        <div id="ampiaofferta" class="container mt-5">
+            <div class="row">
+              <div class="col-sm-12 col-md-6 col-lg-6">
+                <h5>UN'AMPIA OFFERTA ARTISTICA</h5>
+                <h2>OFFERTA FORMATIVA</h2>
+                <p>3 dipartimenti, 6 scuole, 12 indirizzi
+                    per una moderna e completa formazione
+                    nel campo della comunicazione visiva</p>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-6">
+                <img class="mx-auto d-block" id="immaginepennelli" src="images/pennelli.jpg" alt="pennelli">
+              </div>
+            </div>
+          </div>
+          
 
           <div onclick="scrollToTop()" class="top">TOP</div>
     
@@ -101,11 +125,11 @@
 
     <footer>
         <div class="footercontent"> 
-            <p>© Sella srl - PI 01176320032 <br>  Privacy Policy (ita eng 隐私政策)  |  Cookie Policy (ita eng 政策) <br>
+            <p nomargin>© Sella srl - PI 01176320032 <br>  Privacy Policy (ita eng 隐私政策)  |  Cookie Policy (ita eng 政策) <br>
             ACME Accademia di Belle Arti Europea dei Media <br>
             Address / 地址  Novara (Italy), via C. Porta 25
             Tel. /  电话 (+39) 0321.627101 / 628381 - Fax / 传真 (+39) 0321.35400 <br>
-           <a href="#">accademia@acmenovara.it</a></p>
+           <a href="mailto:accademia@acmenovara.it">accademia@acmenovara.it</a></p>
         </div>  
     </footer>
     
@@ -122,6 +146,5 @@
         }
 
       </script>
-
 </body>
 </html>
