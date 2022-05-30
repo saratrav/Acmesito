@@ -157,6 +157,19 @@ a.acmetop:hover {
    
   }
 
+  div h2 {
+    margin: 70px 0px 70px 0px;
+    border-left: 10px solid hsl(0, 100%, 70%);
+    padding-left: 20px;
+  }
+
+
+  #youtubevideo {
+    width: 100%;
+    height: 315px;
+    padding: 2px;
+  }
+
   #ampiaofferta {
     background-color: hsl(0, 0%, 6%);
     padding: 20px;
@@ -164,16 +177,6 @@ a.acmetop:hover {
     height: auto;
     border: 3px solid white;
    
-  }
-
-  div h2 {
-    margin: 70px 0px 70px 0px;
-    border-left: 10px solid hsl(0, 100%, 70%);
-    padding-left: 20px;
-  }
-
-  #video {
-      padding: 2px;
   }
 
   .top {
