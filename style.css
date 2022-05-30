@@ -1,21 +1,22 @@
 body {
-    background-image: url(images/Background.jpg);
+    background-image: url('images/Background.jpg');
     margin: 0px;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100%;
+    background-size: cover;
+    background-position: center;
 }
 
 .Stricianera {
-    height: 80px;
-    width: 100%;
     background-color: rgba(0, 0, 0, 0.6);
     border-bottom: 2px solid red;
+    color: white;
+    float: left;
     position: fixed;
-}
-
-.centraturaverticalestriscia {
-    padding: 20px 0;
+    padding: 1% 0% 0.5% 5%;
+    width: 100%;
+    height: auto;
 }
 
 .bandiere {
@@ -28,9 +29,10 @@ body {
 
 }
 
-#bandieraitaliana {
-    margin-left: 90px;
+.bandiere:hover {
+    outline: 2px solid white;
 }
+
 
 .acmetop {
     color: white;
@@ -39,12 +41,35 @@ body {
 
 }
 
+a.acmetop:hover {
+    color: rgb(255, 85, 85);
+}
+
+@media screen and (max-width: 585px) {
+
+      .bandiere
+      {
+        float: none;
+        margin-bottom: 8px;
+        margin-right: 10px;
+      }
+       }
+  
+  @media screen and (max-width: 585px) {
+
+      .Stricianera
+      {
+       text-align: center;
+       padding-left: 0%;
+      } 
+     }
+
 .logoacme {
     max-width: fit-content;
     margin: 20px auto 0px auto;
     background-color: rgba(0, 0, 0, 0.562);
     padding: 90px 15px;
-    border-radius: 150px;
+    border-radius: 100%;
     height: 250px;
     text-align: center;
     color: white;
@@ -59,12 +84,19 @@ body {
 
 button {
     margin-top: 40px !important;
-    background-color: rgb(9, 151, 151);
+    background-color: rgb(255, 255, 255) !important;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
-    color: white;
+    color: rgb(0, 0, 0) !important;
     border-radius: 5px;
+    border: 1px solid rgb(0, 0, 0) !important;
 
+}
+
+button:hover {
+    background-color: black !important;
+    color: white !important;
+    border: 2px solid white !important;
 }
 
 .openday {
@@ -73,13 +105,20 @@ button {
     max-width: 700px;
     border-radius: 10px;
     color: white;
-    line-height: 3px;
     text-align: center;
     font-size: larger;
     margin-top: 20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
 }
+
+p[nomargin] {
+    margin: 0;
+  }
+  
+  h3[nomargin] {
+    margin: 0;
+  }
 
 #red_bg {
     background-color: rgb(250, 106, 106);
@@ -99,24 +138,37 @@ button {
     padding: 30px;
  }
 
+ a[info] {
+     color: white;
+ }
+
+ a[info]:hover {
+     color: rgb(117, 117, 117);
+ }
  
 .material-symbols-outlined {
     font-size: 70px !important;
 }
-  
-a {
-    text-decoration: none;
-}
 
 #welcome {
-    background-color: black;
+    background-color: hsl(0, 0%, 6%);
     padding: 20px;
     color: white;
     height: auto;
     border: 3px solid white;
+   
   }
 
-  h2[welcome] {
+  #ampiaofferta {
+    background-color: hsl(0, 0%, 6%);
+    padding: 20px;
+    color: white;
+    height: auto;
+    border: 3px solid white;
+   
+  }
+
+  div h2 {
     margin: 70px 0px 70px 0px;
     border-left: 10px solid hsl(0, 100%, 70%);
     padding-left: 20px;
@@ -141,6 +193,23 @@ a {
     padding: 6px;
 }
 
+#review {
+    background-color: rgba(252, 160, 175, 0.527);
+    margin-top: 900px;
+    max-width: 1140px;
+    margin: 0 auto;
+    margin-top: 20px;
+    height: 400px;
+    color: white;
+    text-align: center;
+    padding-top: 200px;
+}
+
+#immaginepennelli {
+    width: 100%;
+    height: 100%;
+}
+
 .popup {
     background-color: red;
     height: 200px;
@@ -150,6 +219,7 @@ a {
     position: fixed;
     text-align: center;
     border-radius: 10px 10px 0 0;
+    color: white;
 }
 
   footer {
@@ -166,3 +236,5 @@ a {
     margin: 0 auto;
     font-size: 12px;
 }
+
+ 
