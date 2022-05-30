@@ -66,7 +66,7 @@ a.acmetop:hover {
 
 .logoacme {
     max-width: fit-content;
-    margin: 20px auto 0px auto;
+    margin: 20px auto 50px auto;
     background-color: rgba(0, 0, 0, 0.562);
     padding: 90px 15px;
     border-radius: 100%;
@@ -76,27 +76,27 @@ a.acmetop:hover {
 }
 
 .space {
-    height: 120px;
+    height: 90px;
     max-width: fit-content;
     margin: 0 auto;
 
 }
 
-button {
-    margin-top: 40px !important;
-    background-color: rgb(255, 255, 255) !important;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    color: rgb(0, 0, 0) !important;
+.button {
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+    padding: 10px;
     border-radius: 5px;
-    border: 1px solid rgb(0, 0, 0) !important;
-
+    font-family: Arial, Helvetica, sans-serif;
+    
 }
 
-button:hover {
-    background-color: black !important;
-    color: white !important;
-    border: 2px solid white !important;
+.button:hover {
+    color: white;
+    background-color: black;
+    border: 1px solid white;
 }
 
 .openday {
@@ -135,11 +135,12 @@ button:hover {
     padding: 30px;
  }
 
- a[info] {
-     color: white;
- }
+.info {
+    color: white;
+}
 
- a[info]:hover {
+
+ a.info:hover {
      color: rgb(117, 117, 117);
  }
  
