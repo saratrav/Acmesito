@@ -112,13 +112,10 @@ button:hover {
 
 }
 
-p[nomargin] {
+.nomargin {
     margin: 0;
-  }
-  
-  h3[nomargin] {
-    margin: 0;
-  }
+}
+
 
 #red_bg {
     background-color: rgb(250, 106, 106);
