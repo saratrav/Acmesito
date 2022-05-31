@@ -267,6 +267,15 @@ ul {
     border: 3px solid white;
 }
 
+#borse {
+    background-color: hsl(0, 0%, 6%);
+    border-radius: 20px;
+    padding: 30px;
+    color: white;
+    height: auto;
+    border: 3px solid white;
+}
+
 .bitmargin {
     margin: 20px;
 }
