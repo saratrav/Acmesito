@@ -229,15 +229,15 @@ div h2 {
     background-color: hsl(114, 42%, 39%);
 }
 
-#color1 {
+.color1 {
     color: hsl(0, 100%, 59%);
 }
 
-#color2 {
+.color2 {
     color: hsl(219, 100%, 59%);
 }
 
-#color3 {
+.color3 {
     color: hsl(114, 42%, 39%);
 }
 
