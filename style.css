@@ -136,11 +136,11 @@ a.acmetop:hover {
     padding: 20px 30px;
  }
 
- div[hover] {
+ #hover {
      padding: 20px;
  }
 
- div[hover]:hover {
+ #hover:hover {
      background-color: hsl(0, 0%, 3%);
      border-radius: 20px;
      outline: 1px solid white;
@@ -200,7 +200,7 @@ a.acmetop:hover {
     padding-top: 200px;
 }
 
-  div[dipartimentoout] {
+  .dipartimentoout {
     background-color: hsl(0, 0%, 6%);
     border-radius: 20px;
     padding: 20px;
@@ -215,7 +215,7 @@ a.acmetop:hover {
       text-align: center;
   }
 
-  div[dipartimentoin] {
+  .dipartimentoin {
       padding-top: 3%;
       border: solid red;
       text-align: center;
