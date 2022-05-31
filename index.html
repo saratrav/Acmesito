@@ -1,308 +1,152 @@
 <!DOCTYPE html>
-<html lang="it">
-
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Sito ACME</title>
-  <meta name="description" content="Sito dell'Accademia di Belle Arti Novara">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sito ACME</title>
+    <meta name="description" content="Sito dell'Accademia di Belle Arti Novara">
+    
+    <meta name="author" content="Sara Travain">
+    <link rel="stylesheet" href="style.css">
 
-  <meta name="author" content="Sara Travain">
-  <link rel="stylesheet" href="style.css">
-
-  <!-- Bootstrap -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 
 
   <!-- google fonts icons -->
-  <link rel="stylesheet"
-    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 
   <link rel="icon" href="Images/favicon.jpg">
 </head>
 
 <body>
-
-  <div class="Stricianera">
-
-    <div>
-      <a href="#offertaformativa"><img class="bandiere" src="images/italy-flag.png" alt="bandiera italiana"></a>
-      <a href="#welcome"><img class="bandiere" src="images/british-Flag.jpg" alt="bandiera britannica"></a>
-      <a href="#review"><img class="bandiere" src="images/china-Flag.jpg" alt="bandiera cinese"></a>
-
-      <div>
-        <a href="#top" class="acmetop"> <b>ACME</b> <br>ACCADEMIA DI BELLE ARTI</a>
-      </div>
-    </div>
-  </div>
-
-  <main>
-
-    <div class="space"></div>
-
-    <div class="logoacme"><img src="images/acme-logo.png" alt="logo Acme"><br>Academy of Fine Arts and Media</div>
-
-
-    <div class="space">
-      <a class="button" href="#offertaformativa">DISCOVER MORE</a>
-    </div>
-
-
-    <div id="red_bg" class="openday">
-      <h3 class="nomargin">OPEN DAY ONLINE</h3>
-      <p class="nomargin">Tutte le informazioni per conoscere l'Accademia di Belle Arti ACME</p>
-    </div>
-
-    <div id="orange_bg" class="openday">
-      <h3 class="nomargin">OPEN DAY INTERATTIVO</h3>
-      <p class="nomargin">Clicca qui per iscriverti alla presentazione online</p>
-    </div>
-
-    <div id="offertaformativa" class="container mt-5">
-      <div class="row">
-        <div onclick="OffertaUp()" class="col-sm-12 col-md-4 col-lg-4">
-          <div class="hover">
-            <span class="material-symbols-outlined">
-              menu_book
-            </span>
-            <h3>OFFERTA FORMATIVA</h3>
-            <p>Una formazione globale per i professionisti in campo artistico e nella comunicazione per immagini <br>
-            </p>
-          </div>
-        </div>
-        <div onclick="DurataUp()" class="col-sm-12 col-md-4 col-lg-4">
-          <div class="hover">
-            <span class="material-symbols-outlined">
-              workspace_premium
-            </span>
-            <h3>DURATA E TITOLI</h3>
-            <p>I corsi di studio prevedono un percorso formativo distinto in più cicli <br>
-            </p>
-          </div>
-        </div>
-        <div onclick="BorseUp()" class="col-sm-12 col-md-4 col-lg-4">
-          <div class="hover">
-            <span class="material-symbols-outlined">
-              public
-            </span>
-            <h3>BORSE DI STUDIO</h3>
-            <p>Gli studenti ACME beneficiano dei contributi previsti dalla normativa e gestiti dall'Ente regionale
-              preposto <br>
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div id="welcome" class="container mt-5">
-      <div class="row">
-        <div class="col-sm-12 col-md-6 col-lg-6">
-          <h5>LA CREATIVITÀ È LA TUA PROFESSIONE</h5>
-          <h2>WELCOME TO ACME</h2>
-          <p>Accademia di Belle Arti ACME di Novara è un'istituzione di Alta Formazione Artistica che rilascia titoli
-            accademici di I e II livello</p>
-        </div>
-        <div class="col-sm-12 col-md-6 col-lg-6">
-          <iframe id="youtubevideo" src="https://www.youtube.com/embed/-cQk6kK7JVs" title="YouTube video player"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen></iframe>
-        </div>
-      </div>
-    </div>
-
-    <div class="container mt-5" id="review">
-      <div class="col-sm-12 col-md-12 col-lg-12">
-        <p>"Non sprecare il tuo tempo. Crea, agisci, prendi posto ovunque tu sia e diventa qualcuno" Teddy Roosevelt</p>
-      </div>
-    </div>
-
   
-    <div class="container mt-5">
-      <div class="dipartimentoout">
-        <div id="ampiaofferta" class="row">
-          <div  class="col-sm-12 col-md-6 col-lg-6">
-            <h5>UN'AMPIA OFFERTA ARTISTICA</h5>
-            <h2>OFFERTA FORMATIVA</h2>
-            <p>3 dipartimenti, 6 scuole, 12 indirizzi
-              per una moderna e completa formazione
-              nel campo della comunicazione visiva</p>
-          </div>
-          <div class="col-sm-12 col-md-6 col-lg-6">
-            <img class="mx-auto d-block" id="immaginepennelli" src="images/pennelli.jpg" alt="pennelli">
-          </div>
-        </div>
-
-        <div class="artivisive" id="bgcolor1">
-          DIPARTIMENTO <br> <b>ARTI VISIVE</b>
-        </div>
-        <div class="row">
-          <div class="col-sm-12 col-md-6 col-lg-6">
-            <div class="dipartimentoin">
-              <h6> SCUOLA </h6>
-              <h5 class="color1"><b>PITTURA</b></h5>
-              INDIRIZZI
-              <ul>
-                <li>FUMETTO E VISUAL STORYTELLING</li>
-                <li>PITTURA E NUOVE PRATICHE ESPRESSIVE</li>
-              </ul>
+    <div class="Stricianera">
+    
+        <div>
+            <a href="#offertaformativa"><img class="bandiere" src="images/italy-flag.png" alt="bandiera italiana"></a>
+            <a href="#welcome"><img class="bandiere" src="images/british-Flag.jpg" alt="bandiera britannica"></a>
+            <a href="#review"><img class="bandiere" src="images/china-Flag.jpg" alt="bandiera cinese"></a> 
+    
+            <div>
+                <a href="#top" class="acmetop"> <b>ACME</b> <br>ACCADEMIA DI BELLE ARTI</a>
             </div>
-          </div>
-          <div class="col-sm-12 col-md-6 col-lg-6">
-            <div class="dipartimentoin">
-              <h6> SCUOLA </h6>
-              <h5 class="color1"><b>GRAFICA</b></h5>
-              INDIRIZZO
-              <ul>
-                <li>ILLUSTRAZIONE, EDITORIA E COMUNICAZIONE</li>
-              </ul>
-            </div>
-          </div>
         </div>
-      
-        <div class="artivisive" id="bgcolor2">
-          DIPARTIMENTO <br> <b>PROGETTAZIONE E ARTI APPLICATE</b>
-        </div>
-        <div class="row">
-          <div class="col-sm-12 col-md-12 col-lg-4">
-            <div class="dipartimentoin">
-              <h6> SCUOLA </h6>
-              <h5 class="color2"><b>SCENOGRAFIA</b></h5>
-              INDIRIZZI
-              <ul>
-                <li>AMBIENTAZIONE PER INTERNI E PROGETTAZIONE DI ELEMENTI D'ARREDO</li>
-                <li>AMBIENTAZIONE PER ESTERNI E PROGETTAZIONE DEL PAESAGGIO</li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-sm-12 col-md-12 col-lg-4">
-            <div class="dipartimentoin">
-              <h6> SCUOLA </h6>
-              <h5 class="color2"><b>PROGETTAZIONE ARTISTICA PER L'IMPRESA</b></h5>
-              INDIRIZZI
-              <ul>
-                <li>DESIGN</li>
-                <li>FASHION DESIGN</li>
-                <li>IMMAGINE D'IMPRESA E STRATEGIE DI COMUNICAZIONE</li>
-                <li>GRAPHIC DESIGN E ART DIRECTION</li>
-              </ul>
-            </div>
-          </div>
-
-          <div class="col-sm-12 col-md-12 col-lg-4">
-            <div class="dipartimentoin">
-              <h6> SCUOLA </h6>
-              <h5 class="color2"><b>NUOVE TECNOLOGIE DELL'ARTE</b></h5>
-              INDIRIZZI
-              <ul>
-                <li>LINGUAGGI AUDIOVISIVI E TECNICHE DEI MEDIA DIGITALI</li>
-                <li>FOTOGRAFIA E LINGUAGGI VISUALI</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      
-        <div class="artivisive" id="bgcolor3">
-          DIPARTIMENTO <br> <b>COMUNICAZIONE E DIDATTICA DELL'ARTE</b>
-        </div>
-        <div class="row">
-          <div class="col-sm-12 col-md-12 col-lg-12">
-            <div class="dipartimentoin">
-              <h6> SCUOLA </h6>
-              <h5 class="color3"><b>COMUNICAZIONE E VALORIZZAZIONE DEL PATRIMONIO ARTISTICO CONTEMPORANEO</b></h5>
-              INDIRIZZO
-              <ul>
-                <li> GESTIONE, VALORIZZAZIONE E TUTELA DEI BENI CULTURALI</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
     </div>
 
-    <div id="durata" class="container mt-5">
-      <div class="row">
-        <div class="col-sm-12 col-md-12 col-lg-12">
-          <h2 class="bitmargin">DURATA E TITOLI</h2>
-          <h4>DURATA DEGLI STUDI E TITOLI RILASCIATI</h4>
-          <p>I Piani di studio dell'Accademia di Belle Arti sono soprattutto caratterizzati, rispetto alle tradizionali facoltà universitarie affini, dall'articolazione, con pari dignità, degli insegnamenti teorico scientifici con gli insegnamenti in laboratorio, entrambi finalizzati a concorrere alla formazione globale del professionista della comunicazione per immagini e, più in generale, in campo artistico.
-
-            L'ordinamento e la tipologia dei titoli di studio rilasciati dall'Accademia di Belle Arti si riferiscono a corsi di studio che, nella nuova organizzazione universitaria dell'Alta Formazione Artistica e Musicale, prevedono un percorso formativo distinto in due cicli:
-          </p>
-          <ul>
-            <li>
-               il <b>primo ciclo</b>, a cui si accede con il diploma di secondo grado, ha durata triennale; permette il conseguimento del titolo di primo livello
-            </li>
-            <li> 
-              il <b>secondo ciclo - <i>biennio specialistico</i></b> - consente agli studenti in possesso del titolo di primo livello o laurea con titolo affine, di completare gli studi per il conseguimento del titolo di secondo livello
-          </li>
-          </ul>
-          <p>
-            Gli insegnamenti di tutti gli indirizzi hanno alcune caratteristiche comuni: <b>sono articolati in laboratori sperimentali, che caratterizzano il percorso in Accademia, tesi a sviluppare la creatività individuale </b>, ed in corsi teorici/critici, propri delle facoltà universitarie, che approfondiscono i fondamenti storici e teorici dell'arte, della televisione, del cinema, con attenzione verso i campi della sociologia, dell'economia, dell'estetica e della storia e filosofia delle arti. <br> <br> Successivamente al conseguimento del titolo di studio di secondo livello, i corsi di perfezionamento (dottorato di ricerca e master) concludono il percorso scolastico.
-          </p>
-
+    <main>
+        
+        <div class="space"></div>
+        
+        <div class="logoacme"><img src="images/acme-logo.png" alt="logo Acme"><br>Academy of Fine Arts and Media</div>
+        
+        
+        <div class="space">
+          <a class="button" href="#offertaformativa">DISCOVER MORE</a>
         </div>
-      </div>
-    </div>
+         
 
-
-    <div id="borse" class="container mt-5">
-      <div class="row">
-        <div class="col-sm-12 col-md-12 col-lg-12">
-          <h2 class="bitmargin">BORSE DI STUDIO</h2>
-          <h4>BORSE DI STUDIO ED ALTRE PROVVIDENZE</h4>
-          <p>
-            Gli studenti iscritti a questa Accademia beneficiano dei contributi e dei servizi offerti agli studenti universitari previsti dalla normativa e gestiti dall'Ente regionale per il diritto allo studio universitario (borse di studio, ristorazione, servizi abitativi ecc.) secondo le istruzioni indicate sulle guide regionali.
-
-            Per maggiori informazioni visitate il sito: <a href="www.edisu.piemonte.it">www.edisu.piemonte.it</a> 
-          </p>
-
+        <div id="red_bg" class="openday">
+            <h3 class="nomargin">OPEN DAY ONLINE</h3>
+            <p class="nomargin">Tutte le informazioni per conoscere l'Accademia di Belle Arti ACME</p>
         </div>
-      </div>
-    </div>
+    
+        <div id="orange_bg" class="openday">
+            <h3 class="nomargin">OPEN DAY INTERATTIVO</h3>
+            <p class="nomargin">Clicca qui per iscriverti alla presentazione online</p>
+        </div>
 
-    <div onclick="scrollToTop()" class="top">TOP</div>
+        <div id="offertaformativa" class="container mt-5">
+            <div class="row">
+                <div class="col-sm-12 col-md-4 col-lg-4">
+                    <span class="material-symbols-outlined">
+                        menu_book
+                    </span>
+                    <h3>OFFERTA FORMATIVA</h3>
+                    <p>Una formazione globale per i professionisti in campo artistico e nella comunicazione per immagini <br><a class="info" href="#">(info)</a>
+                    </p>
+                </div>
+                <div class="col-sm-12 col-md-4 col-lg-4">
+                    <span class="material-symbols-outlined">
+                        workspace_premium
+                    </span>
+                    <h3>DURATA E TITOLI</h3>
+                    <p>I corsi di studio prevedono un percorso formativo distinto in più cicli <br><a class="info" href="#">(info)</a>
+                    </p>
+                </div>
+                <div class="col-sm-12 col-md-4 col-lg-4">
+                    <span class="material-symbols-outlined">
+                        public
+                    </span>
+                    <h3>BORSE DI STUDIO</h3>
+                    <p>Gli studenti ACME beneficiano dei contributi previsti dalla normativa e gestiti dall'Ente regionale
+                        preposto <br><a class="info" href="#">(info)</a>
+                    </p>
+                </div>
+            </div>
+        </div>
 
-  </main>
+          <div id="welcome" class="container mt-5">
+            <div class="row">
+              <div class="col-sm-12 col-md-6 col-lg-6">
+                <h5>LA CREATIVITÀ È LA TUA PROFESSIONE</h5>
+                <h2>WELCOME TO ACME</h2>
+                <p>Accademia di Belle Arti ACME di Novara è un'istituzione di Alta Formazione Artistica che rilascia titoli accademici di I e II livello</p>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-6">
+                <iframe id="youtubevideo" src="https://www.youtube.com/embed/-cQk6kK7JVs" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
 
-  <footer>
-    <div class="footercontent">
-      <p class="nomargin">© Sella srl - PI 01176320032 <br> Privacy Policy (ita eng 隐私政策) | Cookie Policy (ita eng 政策)
-        <br>
-        ACME Accademia di Belle Arti Europea dei Media <br>
-        Address / 地址 Novara (Italy), via C. Porta 25
-        Tel. / 电话 (+39) 0321.627101 / 628381 - Fax / 传真 (+39) 0321.35400 <br>
-        <a href="mailto:accademia@acmenovara.it">accademia@acmenovara.it</a>
-      </p>
-    </div>
-  </footer>
+          <div id="review">
+            <p>"Non sprecare il tuo tempo. Crea, agisci, prendi posto ovunque tu sia e diventa qualcuno" Teddy Roosevelt</p> 
+        </div>
 
-  <div onclick="GoUp()" class="popup">POP UP</div>
+        <div id="ampiaofferta" class="container mt-5">
+            <div class="row">
+              <div class="col-sm-12 col-md-6 col-lg-6">
+                <h5>UN'AMPIA OFFERTA ARTISTICA</h5>
+                <h2>OFFERTA FORMATIVA</h2>
+                <p>3 dipartimenti, 6 scuole, 12 indirizzi
+                    per una moderna e completa formazione
+                    nel campo della comunicazione visiva</p>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-6">
+                <img class="mx-auto d-block" id="immaginepennelli" src="images/pennelli.jpg" alt="pennelli">
+              </div>
+            </div>
+          </div>
+          
 
-  <script>
+          <div onclick="scrollToTop()" class="top">TOP</div>
+    
+    </main>
 
-    function OffertaUp() {
-      window.scrollTo(0, 1820);
-    }
+    <footer>
+        <div class="footercontent"> 
+            <p class="nomargin">© Sella srl - PI 01176320032 <br>  Privacy Policy (ita eng 隐私政策)  |  Cookie Policy (ita eng 政策) <br>
+            ACME Accademia di Belle Arti Europea dei Media <br>
+            Address / 地址  Novara (Italy), via C. Porta 25
+            Tel. /  电话 (+39) 0321.627101 / 628381 - Fax / 传真 (+39) 0321.35400 <br>
+           <a href="mailto:accademia@acmenovara.it">accademia@acmenovara.it</a></p>
+        </div>  
+    </footer>
+    
+    <div onclick="GoUp()" class="popup">POP UP</div>
+    
+    <script>
+     
+        function scrollToTop() {
+           window.scrollTo(0, 0);
+        }
 
-    function DurataUp() {
-      window.scrollTo(0, 3300);
-    }
+        function GoUp() {
+           document.getElementsByClassName("popup").style = "bottom: 0";
+        }
 
-    function BorseUp() {
-      window.scrollTo(0, 3800);
-    }
-
-    function scrollToTop() {
-      window.scrollTo(0, 0);
-    }
-
-    function GoUp() {
-      document.getElementsByClassName("popup").style = "bottom: 0";
-    }
-
-  </script>
+      </script>
 </body>
-
 </html>
