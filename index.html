@@ -60,29 +60,29 @@
 
         <div id="offertaformativa" class="container mt-5">
             <div class="row">
-                <div class="col-sm-12 col-md-4 col-lg-4">
+                <div hover onclick="OffertaUp()" class="col-sm-12 col-md-4 col-lg-4">
                     <span class="material-symbols-outlined">
                         menu_book
                     </span>
                     <h3>OFFERTA FORMATIVA</h3>
-                    <p>Una formazione globale per i professionisti in campo artistico e nella comunicazione per immagini <br><a class="info" href="#">(info)</a>
+                    <p>Una formazione globale per i professionisti in campo artistico e nella comunicazione per immagini <br>
                     </p>
                 </div>
-                <div class="col-sm-12 col-md-4 col-lg-4">
+                <div hover class="col-sm-12 col-md-4 col-lg-4">
                     <span class="material-symbols-outlined">
                         workspace_premium
                     </span>
                     <h3>DURATA E TITOLI</h3>
-                    <p>I corsi di studio prevedono un percorso formativo distinto in più cicli <br><a class="info" href="#">(info)</a>
+                    <p>I corsi di studio prevedono un percorso formativo distinto in più cicli <br>
                     </p>
                 </div>
-                <div class="col-sm-12 col-md-4 col-lg-4">
+                <div hover class="col-sm-12 col-md-4 col-lg-4">
                     <span class="material-symbols-outlined">
                         public
                     </span>
                     <h3>BORSE DI STUDIO</h3>
                     <p>Gli studenti ACME beneficiano dei contributi previsti dalla normativa e gestiti dall'Ente regionale
-                        preposto <br><a class="info" href="#">(info)</a>
+                        preposto <br>
                     </p>
                 </div>
             </div>
@@ -101,9 +101,11 @@
             </div>
           </div>
 
-          <div id="review">
-            <p>"Non sprecare il tuo tempo. Crea, agisci, prendi posto ovunque tu sia e diventa qualcuno" Teddy Roosevelt</p> 
-        </div>
+          <div class="container mt-5" id="review">
+          <div  class="col-sm-12 col-md-12 col-lg-12">
+            <p>"Non sprecare il tuo tempo. Crea, agisci, prendi posto ovunque tu sia e diventa qualcuno" Teddy Roosevelt</p>
+            </div>
+          </div>
 
         <div id="ampiaofferta" class="container mt-5">
             <div class="row">
@@ -120,6 +122,37 @@
             </div>
           </div>
           
+          <div dipartimentoout class="container mt-5">
+            <div id="artivisive">
+              DIPARTIMENTO <br> <b>ARTI VISIVE</b>
+            </div>
+            <div class="row">
+              <div class="col-sm-12 col-md-6 col-lg-6">
+                <div dipartimentoin>
+                  <h6> SCUOLA </h6>
+                  <h5><b>PITTURA</b></h5>
+                  INDIRIZZI
+                  <ul>
+                    <li>FUMETTO E VISUAL STORYTELLING</li>
+                    <li>PITTURA E NUOVE PRATICHE ESPRESSIVE</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-6">
+                <div dipartimentoin>
+                  <h6> SCUOLA </h6>
+                  <h5><b>GRAFICA</b></h5>
+                  INDIRIZZO
+                  <ul>
+                    <li>ILLUSTRAZIONE, EDITORIA E COMUNICAZIONE</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+            
+              
 
           <div onclick="scrollToTop()" class="top">TOP</div>
     
@@ -139,6 +172,10 @@
     
     <script>
      
+        function OffertaUp() {
+           window.scrollTo(0, 1820);
+        }
+
         function scrollToTop() {
            window.scrollTo(0, 0);
         }
@@ -150,3 +187,4 @@
       </script>
 </body>
 </html>
+
