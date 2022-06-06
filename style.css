@@ -181,6 +181,7 @@ div h2 {
     padding: 2px;
 }
 
+
 #ampiaofferta {
     padding: 20px;
     color: white;
@@ -315,6 +316,8 @@ ul {
 #map {
     margin-top: 25px;
     border: 8px solid rgb(88, 124, 118) !important;
+    width: 100%;
+    height: 400px;
 }
 
 a {
