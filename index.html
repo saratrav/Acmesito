@@ -25,7 +25,7 @@
 
 <body>
 
-  <div class="Stricianera">
+  <div class="striscianera">
 
     <div>
       <a href="#offertaformativa"><img class="bandiere" src="images/italy-flag.png" alt="bandiera italiana"></a>
@@ -132,7 +132,7 @@
               nel campo della comunicazione visiva</p>
           </div>
           <div class="col-sm-12 col-md-6 col-lg-6">
-            <img  id="immaginepennelli" src="images/pennelli.jpg" alt="pennelli">
+            <img id="immaginepennelli" src="images/pennelli.jpg" alt="pennelli">
           </div>
         </div>
 
@@ -262,6 +262,7 @@
       </div>
     </div>
 
+    
 
     <div id="borse" class="container mt-5">
       <div class="row">
@@ -281,44 +282,46 @@
         </div>
       </div>
     </div>
-
-
-    <div id="info" class="container-fluid mt-5">
-      <div class="row">
-        <div class="col-sm-12 col-md-6 col-lg-6">        
-            <div>
-              <span id="iconimagesbot" class="material-symbols-outlined" >
-                pin_drop
-              </span>
-              <span class="align"> Novara, via Costantino Porta 25 </span>
-            </div>
-            <div>
-              <span id="iconimagesbot2" class="material-symbols-outlined">
-                mail
-              </span>
-              <span> <a href="mailto:accademia@acmenovara.it">accademia@acmenovara.it</a></span>
-            </div>
-            <div>
-              <span id="iconimagesbot3" class="material-symbols-outlined">
-                call
-              </span>
-              <span>+390321627101</span>
-            </div>         
-        </div>
-        <div class="col-6">
-        <div class="mx-auto d-block">
-          <span><img src="images/facebook-icon.png" alt="facebook icon" class="social"></span>
-          <span><img src="images/instagram-icon.png" alt="instagram icon" class="social"></span>
-        <span><img src="images/youtube-icon.png" alt="youtube icon" class="social"></span>
+    
+      <div class="info" id="infomargin">
+        <span id="iconimagesbot" class="material-symbols-outlined">
+          pin_drop
+        </span>
+        <span class="infotext"> Novara, via Costantino Porta 25
+        </span>
+        <span id="iconimagesbot2" class="material-symbols-outlined">
+          mail
+        </span>
+        <a href="mailto:accademia@acmenovara.it">
+          <div class="infotext"> accademia@acmenovara.it
+          </div>
+        </a>
+        <span id="iconimagesbot3" class="material-symbols-outlined">
+          call
+        </span>
+        <div class="infotext" style="display: inline" ;> +390321627101</div>
       </div>
-        </div>
+
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2798.854587066455!2d8.6137757!3d45.4525863!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47865a24573b9d29%3A0x5064224377bd31e3!2sVia%20Costantino%20Porta%2C%2025%2C%2028100%20Novara%20NO!5e0!3m2!1sen!2sit!4v1654440794287!5m2!1sen!2sit"
+      allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" id="map"></iframe>
+
+      
+      <div class="info">
+        <span><img src="images/facebook-icon.png" alt="facebook icon" class="social"></span>
+        <span class="infotext"> ACMENovaraAccademia
+        </span>
+            <span><img src="images/instagram-icon.png" alt="instagram icon" class="social"></span>
+            <span class="infotext"> acmenovaraaccademia
+            </span>
+            <span><img src="images/youtube-icon.png" alt="youtube icon" class="social"></span> 
+            <span class="infotext"> ACME Accademia di Belle Arti
+            </span>
       </div>
-    </div>
-
-
-    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2798.854587066455!2d8.6137757!3d45.4525863!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47865a24573b9d29%3A0x5064224377bd31e3!2sVia%20Costantino%20Porta%2C%2025%2C%2028100%20Novara%20NO!5e0!3m2!1sen!2sit!4v1654440794287!5m2!1sen!2sit" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" id="map"></iframe>
 
   </main>
+
+  
 
   <footer>
     <div class="footercontent">
@@ -334,12 +337,13 @@
 
   <div onclick="scrollToTop()" class="top">TOP</div>
 
+  <div onclick="disappear()" id="cookiebutton">Accetta</div>
+
   <div onclick="goUp()" id="popup">
     <div>Cookies</div>
     <span class="material-symbols-outlined">
       cookie
     </span>
-    <div onclick="disappear()" id="cookiebutton">Accetta</div>
   </div>
 
   <!-- link javascript -->
