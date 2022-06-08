@@ -8,7 +8,7 @@ body {
     background-position: center;
 }
 
-.Stricianera {
+.striscianera {
     background-color: rgba(0, 0, 0, 0.6);
     border-bottom: 2px solid rgb(255, 255, 255);
     color: white;
@@ -52,9 +52,6 @@ a.acmetop:hover {
         margin-bottom: 8px;
         margin-right: 10px;
     }
-}
-
-@media screen and (max-width: 585px) {
 
     .Stricianera {
         text-align: center;
@@ -145,6 +142,7 @@ a.acmetop:hover {
 
 .hover {
     padding: 20px;
+    height: 100%;
 }
 
 .hover:hover {
@@ -173,7 +171,6 @@ div h2 {
     border-left: 10px solid hsl(0, 100%, 70%);
     padding-left: 20px;
 }
-
 
 #youtubevideo {
     width: 100%;
@@ -289,33 +286,48 @@ ul {
     margin: 20px;
 }
 
-#info {
+.info {
     background-color: rgb(88, 124, 118);
     color: white;
-    padding: 30px 180px;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+#infomargin {
+    margin-top: 50px;
 }
 
 #iconimagesbot {
     font-size: 25px !important;
+    vertical-align: text-bottom;
+    margin: 0 15px;
 }
 
 #iconimagesbot2 {
     font-size: 27px !important;
+    vertical-align: text-bottom;
+    margin: 0 15px;
 }
 
 #iconimagesbot3 {
     font-size: 27px !important;
+    vertical-align: text-bottom;
+    margin: 0 15px;
 }
 
+.infotext {
+    vertical-align: super;
+     display: inline;
+   }
+
 .social {
-    width: 60px;
-    padding-top: 20px;
-    padding-left: 20px;
+    width: 30px;
+    vertical-align: bottom;
+    margin: 0 10px;
 }
 
 #map {
-    margin-top: 25px;
-    border: 8px solid rgb(88, 124, 118) !important;
+    outline: 8px solid rgb(88, 124, 118) !important;
     width: 100%;
     height: 400px;
 }
@@ -366,6 +378,7 @@ footer {
     display: block;
     padding: 1px 15px 15px 15px;
     border: 2px solid rgb(90, 162, 196);
+    z-index: 1;
 }
 
 #cookiebutton {
@@ -373,7 +386,12 @@ footer {
     color: rgb(0, 0, 0);
     border: 2px solid rgb(64, 151, 147);
     border-radius: 10px;
-    padding: 4px 5px;
+    padding: 4px 20px;
     margin: 5px;
+    display: none;
+    bottom: 5px;
+    left: 65px;
+    position: fixed;
+    z-index: 2;
 
 }
