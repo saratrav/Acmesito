@@ -44,11 +44,9 @@ body {
 
 }
 
-a.acmetop:hover {
+h6.acmetop:hover {
     color: rgb(255, 85, 85) !important;
 }
-
-
 
 @media screen and (max-width: 670px) {
 
@@ -87,7 +85,12 @@ a.acmetop:hover {
     height: 270px;
     text-align: center;
     color: white;
+    transition: transform 700ms cubic-bezier(.68,-0.55,.27,1.55);
 
+}
+
+.logoacme:hover {
+    transform: scale(1.1);
 }
 
 #academy {
@@ -219,7 +222,7 @@ div h2 {
     height: 100%;
 }
 
-#review {
+#citazioni {
     background-color: rgba(56, 126, 99, 0.781);
     margin: 0 auto;
     margin-top: 20px;
@@ -233,6 +236,8 @@ div h2 {
     padding: 15px;
 }
 
+
+
 #quoteicon {
     font-variation-settings: 'FILL' 1;
     font-size: 50px !important;
@@ -242,7 +247,7 @@ div h2 {
     font-variation-settings: 'FILL' 1;
     font-size: 20px !important;
     cursor: pointer;
-    color: black;
+    color: white;
 }
 
 #pallino2 {
@@ -454,14 +459,20 @@ footer {
 #arrow {
     background-color: rgba(0, 0, 0, 0.562);
     position: fixed;
-    bottom: 10px;
-    right: 15px;
+    bottom: 15px;
+    right: 20px;
     cursor: pointer;
     border-radius: 90px;
     color: white;
-    transform: rotate(180deg);
-    font-size: 55px !important;
+    font-size: 50px !important;
+    transition: 500ms;
 }
+
+#arrow:hover {
+   transform: scale(1.2);
+}
+
+
 
 #popup {
     background-color: rgb(255, 255, 255);
@@ -477,6 +488,7 @@ footer {
     padding: 1px 15px 15px 15px;
     border: 2px solid rgb(90, 162, 196);
     z-index: 1;
+    transition: transform 700ms;
 }
 
 
@@ -484,21 +496,32 @@ footer {
     cursor: pointer;
 }
 
-
-#cookiebutton {
+#accetta {
     background-color: rgb(179, 247, 232);
     color: rgb(0, 0, 0);
     border: 2px solid rgb(64, 151, 147);
     border-radius: 10px;
-    padding: 4px 20px;
+    padding: 4px 15px;
     margin: 5px;
-    display: none;
-    bottom: 5px;
-    left: 65px;
     position: fixed;
+    bottom: -120px;
+    left: 26px;
     z-index: 2;
-    cursor: pointer;
+    transition: transform 700ms;
+}
 
+#rifiuta {
+    background-color: rgb(179, 247, 232);
+    color: rgb(0, 0, 0);
+    border: 2px solid rgb(64, 151, 147);
+    border-radius: 10px;
+    padding: 4px 15px;
+    margin: 5px;
+    position: fixed;
+    bottom: -120px;
+    left: 124px;
+    z-index: 2;
+    transition: transform 700ms;
 }
 
 #emojiCookie {
