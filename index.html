@@ -108,12 +108,12 @@
       </div>
     </div>
 
-    <div class="container mt-5" id="review">
+    <div class="container mt-5" id="citazioni">
       <div class="col-sm-12 col-md-12 col-lg-12">
         <span id="quoteicon" class="material-symbols-outlined">
           format_quote
           </span>
-        <p id="citazione">"Non sprecare il tuo tempo. Crea, agisci, prendi posto ovunque tu sia e diventa qualcuno" Teddy Roosevelt</p>
+        <p id="frasi">"Non sprecare il tuo tempo. Crea, agisci, prendi posto ovunque tu sia e diventa qualcuno" <br> Teddy Roosevelt</p>
 
         <span onclick="cambiaFraseUno()" id="pallino1" class="material-symbols-outlined">
           radio_button_unchecked
@@ -346,10 +346,12 @@
   </footer>
 
   <div onclick="scrollToTop()" id="arrow" class="material-symbols-outlined">
-    arrow_circle_down
+    arrow_circle_up
     </div>
+  
+  <button onclick="disappear()" id="accetta">Accetta</button>
 
-  <div onclick="disappear()" id="cookiebutton">Accetta</div>
+  <button onclick="disappear()" id="rifiuta">Rifiuta</button>
 
   <div onclick="goUp()" id="popup">
     <div id="cookiecursor">Cookies</div>
