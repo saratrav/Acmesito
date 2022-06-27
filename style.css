@@ -451,19 +451,16 @@ footer {
     margin: 0.8%;
 }
 
-.top {
-    color: white;
-    background-color: rgba(0, 0, 0, 0.541);
+#arrow {
+    background-color: rgba(0, 0, 0, 0.562);
     position: fixed;
     bottom: 10px;
     right: 15px;
-    width: 55px !important;
-    border-radius: 90px;
-    text-align: center !important;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-weight: bold;
-    padding: 6px;
     cursor: pointer;
+    border-radius: 90px;
+    color: white;
+    transform: rotate(180deg);
+    font-size: 55px !important;
 }
 
 #popup {
