@@ -1,529 +1,83 @@
-body {
-    background-image: url('images/background.jpg');
-    margin: 0px;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: 100%;
-    background-size: cover;
-    background-position: center;
-}
-
-.striscianera {
-    height: auto;
-    background-color: rgba(0, 0, 0, 0.6);
-    border-bottom: 2px solid rgb(255, 255, 255);
-    position: fixed;
-    width: 100%;
-    color: white;
-    padding-left: 2%;
-    padding-right: 2%;
-    text-align: center;
-    
-    
-}
-
-.bandiere {
-    width: 50px;
-    height: 30px;
-    margin: 0.8% 15px;
-    border-radius: 3px;
-    float: left;
-}
-
-.bandiere:hover {
-    outline: 2px solid white;
-}
-
-
-.acmetop {
-    color: white;
-    text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
-    float: left;
-    margin: 1.2% 15px;
-
-}
-
-h6.acmetop:hover {
-    color: rgb(255, 85, 85) !important;
-}
-
-@media screen and (max-width: 670px) {
-
-    .socialicons {
-        float: none;
-        margin: 0.8% 10px;
-    }
-
-    .acmetop {
-        float: none; 
-    }
-
-    .bandiere {
-        
-        float: none;
-        margin: 0.8% 10px;
-        width: 43px;
-        height: 27px;
-    }
-
-}
-
-
-.social {
-    width: auto;
-    vertical-align: bottom;
-    margin: 0 10px;
-}
-
-.logoacme {
-    max-width: fit-content;
-    margin: 20px auto 50px auto;
-    background-color: rgba(0, 0, 0, 0.562);
-    padding: 100px 15px;
-    border-radius: 100%;
-    height: 270px;
-    text-align: center;
-    color: white;
-    transition: transform 700ms cubic-bezier(.68,-0.55,.27,1.55);
-
-}
-
-.logoacme:hover {
-    transform: scale(1.1);
-}
-
-#academy {
-    margin: 3px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
-.space {
-    height: 90px;
-    max-width: fit-content;
-    margin: 0 auto;
-
-}
-
-.button {
-    text-decoration: none;
-    color: black !important;
-    background-color: white;
-    border: 1px solid black;
-    padding: 10px;
-    border-radius: 5px;
-    font-family: Arial, Helvetica, sans-serif;
-
-}
-
-.button:hover {
-    color: white !important;
-    background-color: rgba(0, 0, 0, 0.534);
-    border: 1px solid white;
-}
-
-.openday {
-    margin: 0 auto;
-    border: 2px solid white;
-    padding: 1px;
-    max-width: 700px;
-    border-radius: 10px;
-    color: white;
-    text-align: center;
-    font-size: larger;
-    margin-top: 20px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-
-}
-
-@media screen and (max-width: 755px) {
-
-
-    .openday {
-        margin: 25px 35px;
-    }
-
-}
-
-.nomargin {
-    margin: 0;
-}
-
-
-#red_bg {
-    background-color: rgb(250, 106, 106);
-}
-
-#orange_bg {
-    background-color: orange;
-}
-
-
-#offertaformativa {
-    background-color: hsl(0, 0%, 6%);
-    border-radius: 20px;
-    height: auto;
-    border: 3px solid white;
-    color: white;
-    text-align: center;
-    padding: 20px 30px;
-}
-
-
-
-.hover {
-    padding: 20px;
-    height: 100%;
-    cursor: pointer;
-}
-
-.hover:hover {
-    background-color: hsl(0, 0%, 3%);
-    border-radius: 20px;
-    outline: 1px solid white;
-}
-
-
-.material-symbols-outlined {
-    font-size: 70px !important;
-}
-
-#welcome {
-    background-color: hsl(0, 0%, 6%);
-    border-radius: 20px;
-    padding: 20px;
-    color: white;
-    height: auto;
-    border: 3px solid white;
-
-}
-
-div h2 {
-    margin: 70px 0px 70px 0px;
-    border-left: 10px solid hsl(0, 100%, 70%);
-    padding-left: 20px;
-}
-
-#youtubevideo {
-    width: 100%;
-    height: 315px;
-    padding: 2px;
-}
-
-
-#ampiaofferta {
-    padding: 20px;
-    color: white;
-    height: auto;
-}
-
-#immaginepennelli {
-    width: 100%;
-    height: 100%;
-}
-
-#citazioni {
-    background-color: rgba(56, 126, 99, 0.781);
-    margin: 0 auto;
-    margin-top: 20px;
-    height: auto;
-    color: white;
-    text-align: center;
-    border-radius: 20px;
-    font-weight: bold;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 14pt;
-    padding: 15px;
-}
-
-
-
-#quoteicon {
-    font-variation-settings: 'FILL' 1;
-    font-size: 50px !important;
-}
-
-#pallino1 {
-    font-variation-settings: 'FILL' 1;
-    font-size: 20px !important;
-    cursor: pointer;
-    color: white;
-}
-
-#pallino2 {
-    font-variation-settings: 'FILL' 1;
-    font-size: 20px !important;
-    cursor: pointer;
-    color: black;
-}
-
-#pallino3 {
-    font-variation-settings: 'FILL' 1;
-    font-size: 20px !important;
-    cursor: pointer;
-    color: black;
-}
-
-.dipartimentoout {
-    background-color: hsl(0, 0%, 6%);
-    border-radius: 20px;
-    padding: 0 20px 20px 20px;
-    color: white;
-    height: auto;
-    border: 3px solid white;
-    margin: 0px -10px;
-}
-
-
-.artivisive {
-    padding: 20px;
-    text-align: center;
-    margin: 20px 0;
-}
-
-#bgcolor1 {
-    background-color: hsl(0, 100%, 59%);
-}
-
-#bgcolor2 {
-    background-color: hsl(219, 100%, 59%);
-}
-
-#bgcolor3 {
-    background-color: hsl(114, 42%, 39%);
-}
-
-.color1 {
-    color: hsl(0, 100%, 59%);
-}
-
-.color2 {
-    color: hsl(219, 100%, 59%);
-}
-
-.color3 {
-    color: hsl(114, 42%, 39%);
-}
-
-.dipartimentoin {
-    padding-top: 3%;
-    min-height: 100%;
-    text-align: center;
-    background-color: hsl(0, 0%, 10%);
-
-}
-
-
-ul {
-    margin: 0 auto;
-    max-width: fit-content;
-    font-size: 14px;
-    padding-left: 3px !important;
-    max-width: 94%;
-    list-style-type: square;
-}
-
-#durata {
-    background-color: hsl(0, 0%, 6%);
-    border-radius: 20px;
-    padding: 30px;
-    color: white;
-    height: auto;
-    border: 3px solid white;
-}
-
-#borse {
-    background-color: hsl(0, 0%, 6%);
-    border-radius: 20px;
-    padding: 30px;
-    color: white;
-    height: auto;
-    border: 3px solid white;
-}
-
-.bitmargin {
-    margin: 20px;
-}
-
-.info {
-    background-color: rgb(88, 124, 118);
-    color: white;
-    padding: 10px 20px;
-    text-align: center;
-    
-   
-}
 
-#infomargin {
-    margin-top: 50px;
-}
-
-.responsivecontatti {
-    display: inline;
-}
-
+//pulsanti per navigazione del sito
 
 
-#iconimagesbot {
-    font-size: 25px !important;
-    vertical-align: text-bottom;
-    margin: 0 15px;
+function offertaUp() {
+  let offerta = document.getElementById("ampiaofferta");
+  offerta.scrollIntoView();
 }
 
-#iconimagesbot2 {
-    font-size: 27px !important;
-    vertical-align: text-bottom;
-    margin: 0 15px;
-    
-}
 
-#iconimagesbot3 {
-    font-size: 27px !important;
-    vertical-align: text-bottom;
-    margin: 0 15px;
+function durataUp() {
+  let durata = document.getElementById("durata");
+  durata.scrollIntoView();
 }
-
-@media screen and (max-width: 780px) {
-
-    .responsivecontatti {
-        display: block;
-        border: solid white 1px;
-        width: fit-content;
-        padding-right: 20px;
-        padding-top: 10px;
-        padding-bottom: 10px;
-        border-radius: 40px;
-        margin: 10px auto;
-    }
-
-    #iconimagesbot2 {
-        margin-right: 47px;
-    }
-
-    #iconimagesbot3 {
-        margin-right: 120px;
-    }
 
-    .info {
-        width: fit-content;
-        margin: 15px auto;
-        border-radius: 10px;
-       
-    }
-
-    #infomargin {
-        margin-top: 14px;
-    }
-
+function borseUp() {
+  let borse = document.getElementById("borse");
+  borse.scrollIntoView();
 }
 
-.infotext {
-    vertical-align: super;
-     display: inline;
-   }
+//bottoncino per andare su
 
-
-#map {
-    border: 8px solid rgb(88, 124, 118) !important;
-    width: 100%;
-    height: 400px;
+function scrollToTop() {
+  window.scrollTo(0, 0);
 }
 
-a {
-    color: white !important;
-    text-decoration: none !important;
-}
+//pop up
 
-footer {
-    background-color: hsl(0, 0%, 6%);
-    color: white;
-    width: 100%;
-    margin-top: -6px;
-    padding: 6px;
+let popUp =
+  document.getElementById("popup");
 
-}
+let accetta =
+  document.getElementById("accetta");
 
-.footercontent {
-    max-width: 350px;
-    text-align: center;
-    margin: 0 auto;
-    font-size: 12px;
-}
+let rifiuta =
+  document.getElementById("rifiuta")
 
-.socialicons {
-    width: 25px;
-    height: auto;
-    margin: 0.8%;
+function goUp() {
+  popUp.style = "transform: translateY(-125px);";
+  accetta.style = "transform: translateY(-125px);";
+  rifiuta.style = "transform: translateY(-125px);";
 }
 
-#arrow {
-    background-color: rgba(0, 0, 0, 0.562);
-    position: fixed;
-    bottom: 15px;
-    right: 20px;
-    cursor: pointer;
-    border-radius: 90px;
-    color: white;
-    font-size: 50px !important;
-    transition: 500ms;
+function disappear() {
+  popUp.style = "display: none;";
+  accetta.style = "display: none;";
+  rifiuta.style = "display: none;";
 }
 
-#arrow:hover {
-   transform: scale(1.2);
-}
 
+//Citazioni
 
+const pallino1 = document.getElementById("pallino1");
+const pallino2 = document.getElementById("pallino2");
+const pallino3 = document.getElementById("pallino3");
 
-#popup {
-    background-color: rgb(255, 255, 255);
-    height: 200px;
-    width: 200px;
-    bottom: -175px;
-    left: 20px;
-    position: fixed;
-    text-align: center;
-    border-radius: 10px 10px 0 0;
-    color: rgb(55, 98, 117);
-    display: block;
-    padding: 1px 15px 15px 15px;
-    border: 2px solid rgb(90, 162, 196);
-    z-index: 1;
-    transition: transform 700ms;
+function cambiaFraseUno() {
+  let citazione = document.getElementById("frasi");
+  citazione.innerHTML = '"Non sprecare il tuo tempo. Crea, agisci, prendi posto ovunque tu sia e diventa qualcuno" <br> Teddy Roosevelt';
+  pallino1.style = "color: white;";
+  pallino2.style = "color: black;";
+  pallino3.style = "color: black;";
 }
 
 
-#cookiecursor {
-    cursor: pointer;
+function cambiaFraseDue() {
+  let citazione = document.getElementById("frasi");
+  citazione.innerHTML = "Lo studio: strumento per costruire la propria libertà, educazione dell\'ingegno\ e della creatività al lavoro, ma soprattutto occasione privilegiata di capire la vita Enrico Palandri";
+  
+  pallino1.style = "color: black;";
+  pallino2.style = "color: white;";
+  pallino3.style = "color: black;";
 }
 
-#accetta {
-    background-color: rgb(179, 247, 232);
-    color: rgb(0, 0, 0);
-    border: 2px solid rgb(64, 151, 147);
-    border-radius: 10px;
-    padding: 4px 15px;
-    margin: 5px;
-    position: fixed;
-    bottom: -120px;
-    left: 26px;
-    z-index: 2;
-    transition: transform 700ms;
-}
+function cambiaFraseTre() {
+  let citazione = document.getElementById("frasi");
+  citazione.innerHTML = "L'obiettivo non è vivere per sempre. L'obiettivo è creare qualcosa che vivrà per sempre <br> Chuck Palahniuk";
 
-#rifiuta {
-    background-color: rgb(179, 247, 232);
-    color: rgb(0, 0, 0);
-    border: 2px solid rgb(64, 151, 147);
-    border-radius: 10px;
-    padding: 4px 15px;
-    margin: 5px;
-    position: fixed;
-    bottom: -120px;
-    left: 124px;
-    z-index: 2;
-    transition: transform 700ms;
-}
+  pallino3.style = "color: white;";
+  pallino2.style = "color: black;";
+  pallino1.style = "color: black;";
 
-#emojiCookie {
-    font-size: 50px;
 }
