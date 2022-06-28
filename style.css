@@ -1,5 +1,5 @@
 body {
-    background-image: url('images/background.jpg');
+    background-image: url(images/background.webp);
     margin: 0px;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -7,6 +7,7 @@ body {
     background-size: cover;
     background-position: center;
 }
+
 
 .striscianera {
     height: auto;
@@ -18,8 +19,8 @@ body {
     padding-left: 2%;
     padding-right: 2%;
     text-align: center;
-    
-    
+
+
 }
 
 .bandiere {
@@ -56,11 +57,11 @@ h6.acmetop:hover {
     }
 
     .acmetop {
-        float: none; 
+        float: none;
     }
 
     .bandiere {
-        
+
         float: none;
         margin: 0.8% 10px;
         width: 43px;
@@ -85,7 +86,7 @@ h6.acmetop:hover {
     height: 270px;
     text-align: center;
     color: white;
-    transition: transform 700ms cubic-bezier(.68,-0.55,.27,1.55);
+    transition: transform 700ms cubic-bezier(.68, -0.55, .27, 1.55);
 
 }
 
@@ -350,8 +351,8 @@ ul {
     color: white;
     padding: 10px 20px;
     text-align: center;
-    
-   
+
+
 }
 
 #infomargin {
@@ -374,7 +375,7 @@ ul {
     font-size: 27px !important;
     vertical-align: text-bottom;
     margin: 0 15px;
-    
+
 }
 
 #iconimagesbot3 {
@@ -408,7 +409,7 @@ ul {
         width: fit-content;
         margin: 15px auto;
         border-radius: 10px;
-       
+
     }
 
     #infomargin {
@@ -419,8 +420,8 @@ ul {
 
 .infotext {
     vertical-align: super;
-     display: inline;
-   }
+    display: inline;
+}
 
 
 #map {
@@ -469,7 +470,7 @@ footer {
 }
 
 #arrow:hover {
-   transform: scale(1.2);
+    transform: scale(1.2);
 }
 
 
