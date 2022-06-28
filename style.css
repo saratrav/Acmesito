@@ -78,7 +78,8 @@ h6.acmetop:hover {
 }
 
 .logoacme {
-    max-width: fit-content;
+    width: 176px;
+    height: 46px;
     margin: 20px auto 50px auto;
     background-color: rgba(0, 0, 0, 0.562);
     padding: 100px 15px;
@@ -453,7 +454,7 @@ footer {
 
 .socialicons {
     width: 25px;
-    height: auto;
+    height: 25px;
     margin: 0.8%;
 }
 
