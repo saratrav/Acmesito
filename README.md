@@ -1,8 +1,6 @@
 # Acmesito
 Progetto sito per accademia di belle arti di Novara:
 Pubblicazione da GithHub a Netlify https://accademia-novara.netlify.app
-
-
 [![Netlify Status](https://pagespeed.web.dev/report?url=https%3A%2F%2Faccademia-novara.netlify.app%2F%2F)
 
 
