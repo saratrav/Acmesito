@@ -6,7 +6,7 @@ Pubblicazione da GithHub a Netlify https://accademia-novara.netlify.app
 
 
 # Test performance
-[PageSpeed](https://pagespeed.web.dev/report?url=https%3A%2F%2Fpagespeed.web.dev%2Freport%3Furl%3Dhttps%3A%2F%2Faccademia-novara.netlify.app%2F%2F)
+[PageSpeed](https://pagespeed.web.dev/report?url=https%3A%2F%2Faccademia-novara.netlify.app%2F)
 
 [GTMetrix](https://gtmetrix.com/reports/accademia-novara.netlify.app/4m6WTZ09/)
 
