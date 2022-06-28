@@ -188,6 +188,7 @@ h6.acmetop:hover {
     background-color: hsl(0, 0%, 3%);
     border-radius: 20px;
     outline: 1px solid white;
+    outline-offset: -1px;
 }
 
 
@@ -427,6 +428,7 @@ ul {
 .infotext {
     vertical-align: super;
     display: inline;
+    margin: 2px;
 }
 
 
