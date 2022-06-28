@@ -78,8 +78,8 @@ h6.acmetop:hover {
 }
 
 .logoacme {
-    width: 176px;
-    height: 46px;
+    
+    width: 290px;
     margin: 20px auto 50px auto;
     background-color: rgba(0, 0, 0, 0.562);
     padding: 100px 15px;
@@ -89,6 +89,11 @@ h6.acmetop:hover {
     color: white;
     transition: transform 700ms cubic-bezier(.68, -0.55, .27, 1.55);
 
+}
+
+#acmeimg {
+    width: 176px;
+    height: 46px;
 }
 
 .logoacme:hover {
