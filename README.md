@@ -14,4 +14,4 @@ Pubblicazione da GithHub a Netlify https://accademia-novara.netlify.app
 [Responsivedesignchecker](https://responsivedesignchecker.com/checker.php?url=https%3A%2F%2Faccademia-novara.netlify.app%2F&width=1400&height=700)
 
 # Test validatore w3c
-[Test validatore w3c](https://validator.w3.org)
+[Test validatore w3c](https://validator.w3.org/nu/?doc=https%3A%2F%2Faccademia-novara.netlify.app%2F)
