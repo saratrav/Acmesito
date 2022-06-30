@@ -10,6 +10,8 @@ Pubblicazione da GithHub a Netlify https://accademia-novara.netlify.app
 
 [GTMetrix](https://gtmetrix.com/reports/accademia-novara.netlify.app/4m6WTZ09/)
 
+[Seoptimer](https://www.seoptimer.com/accademia-novara.netlify.app)
+
 # Test responsive
 [Responsivedesignchecker](https://responsivedesignchecker.com/checker.php?url=https%3A%2F%2Faccademia-novara.netlify.app%2F&width=1400&height=700)
 
