@@ -56,7 +56,7 @@ const pallino3 = document.getElementById("pallino3");
 
 function cambiaFraseUno() {
   let citazione = document.getElementById("frasi");
-  citazione.innerHTML = '«Non sprecare il tuo tempo. Crea, agisci, prendi posto ovunque tu sia e diventa qualcuno" <br> Teddy Roosevelt»';
+  citazione.innerHTML = "«Non sprecare il tuo tempo. Crea, agisci, prendi posto ovunque tu sia e diventa qualcuno» <br> Teddy Roosevelt";
   pallino1.style = "color: white;";
   pallino2.style = "color: black;";
   pallino3.style = "color: black;";
@@ -66,7 +66,7 @@ function cambiaFraseUno() {
 
 function cambiaFraseDue() {
   let citazione = document.getElementById("frasi");
-  citazione.innerHTML = "«Lo studio: strumento per costruire la propria libertà, educazione dell'ingegno e della creatività al lavoro, ma soprattutto occasione privilegiata di capire la vita Enrico Palandri»";
+  citazione.innerHTML = "«Lo studio: strumento per costruire la propria libertà, educazione dell'ingegno e della creatività al lavoro, ma soprattutto occasione privilegiata di capire la vita» Enrico Palandri";
 
   pallino1.style = "color: black;";
   pallino2.style = "color: white;";
@@ -75,7 +75,7 @@ function cambiaFraseDue() {
 
 function cambiaFraseTre() {
   let citazione = document.getElementById("frasi");
-  citazione.innerHTML = "«L'obiettivo non è vivere per sempre. L'obiettivo è creare qualcosa che vivrà per sempre <br> Chuck Palahniuk»";
+  citazione.innerHTML = "«L'obiettivo non è vivere per sempre. L'obiettivo è creare qualcosa che vivrà per sempre» <br> Chuck Palahniuk";
 
   pallino3.style = "color: white;";
   pallino2.style = "color: black;";
