@@ -66,7 +66,7 @@ function cambiaFraseUno() {
 
 function cambiaFraseDue() {
   let citazione = document.getElementById("frasi");
-  citazione.innerHTML = "«Lo studio: strumento per costruire la propria libertà, educazione dell'ingegno e della creatività al lavoro, ma soprattutto occasione privilegiata di capire la vita» Enrico Palandri";
+  citazione.innerHTML = "«Lo studio: strumento per costruire la propria libertà, educazione dell'ingegno e della creatività al lavoro, ma soprattutto occasione privilegiata di capire la vita» <br>Enrico Palandri";
 
   pallino1.style = "color: black;";
   pallino2.style = "color: white;";
