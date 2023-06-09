@@ -6,8 +6,6 @@ on:
     paths:
       - 'intro/*.*'
       - 'intro/assets/*.*'
-      - 'intro2/*.*'
-      - 'intro2/assets/*.*'
       - '.github/workflows/*.*'
 
 jobs:
@@ -21,9 +19,7 @@ jobs:
     - name: generate pdf
       run: | 
         cd intro
-        docker run --rm --init -v $PWD:/home/marp/app/ -e LANG="it_IT.UTF-8" -e MARP_USER="$(id -u):$(id -g)" marpteam/marp-cli intro.md --pdf --allow-local-files
-        cd ../intro2
-        docker run --rm --init -v $PWD:/home/marp/app/ -e LANG="it_IT.UTF-8" -e MARP_USER="$(id -u):$(id -g)" marpteam/marp-cli intro2.md --pdf --allow-local-files
+        npx @marp-team/marp-cli@latest intro.md --pdf --allow-local-files
       
     - name: commit & push
       run: |
@@ -33,4 +29,3 @@ jobs:
         git add .
         git commit -m "update slide files"
         git push
-        
